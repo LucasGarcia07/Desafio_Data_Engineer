@@ -1,96 +1,15 @@
 import apache_beam as beam
 import json
 
+from utils.toStr import ToStr
+from utils.splitRow import SplitRow
+from utils.selectEstadosFields import SelectEstadosFields 
+from utils.selectCovidFields import SelectCovidFields
+from utils.generateCovidKey import GenerateCovidKey
+from utils.generateEstadosKey import GenerateEstadosKey
+
 covid_hist_path = ("data/HIST_PAINEL_COVIDBR_28set2020.csv")
 estados_ibge_path = ("data/EstadosIBGE.csv")
-
-class ToStr(beam.DoFn):
-    '''
-    Transforma uma tupla de listas em string formatada
-    
-    Args:
-        element (tupple): tupla entre coduf e lista de regiao, governador, uf, estado, casosAcumulado, obitosAcumulado
-    Returns:
-        strings
-    '''
-    def process(self, element):
-        if len(element[1][0]) > len(element[1][1]):
-            lista = [element[1][0][0], element[1][0][1], element[1][1][1], element[1][1][0], element[1][0][2], element[1][0][3]]
-        else:
-            lista = [element[1][1][0], element[1][0][0], element[1][1][1], element[1][0][1], element[1][1][2], element[1][1][3]]
-        return [','.join(lista)]
-
-class GenerateCovidKey(beam.DoFn):
-    '''
-    Gera uma tupla de listas a partir dos elementos selecionados
-    
-    Args:
-        element (list): lista =>  [coduf, regiao, estado, casosAcumulado, obitosAcumulado]
-    
-    Returns: 
-        tupple => (coduf, regiao, estado, casosAcumulado, obitosAcumulado )
-    
-    '''
-    def process(self, element):
-        return [(element[0], [element[1], element[2], element[3], element[4]])]
-
-class GenerateEstadosKey(beam.DoFn):
-    '''
-    Gera uma tupla de listas a partir dos elementos selecionados
-    
-    Args:
-        element (list): lista =>  [coduf, governador, uf]
-    
-    Returns: 
-        tupple => (coduf, governador, uf)
-    
-    '''
-    
-    def process(self, element):
-        return [(element[0], [element[1], element[2]])]
-
-class SelectEstadosFields(beam.DoFn):
-    '''
-    Seleciona dentre todas as features extraídas, código, governador, uf
-    
-    Args:
-        element(list): lista => [...] todas as features
-    
-    Returns:
-        lista => [coduf, governador, uf]
-    
-    '''
-    def process(self, element):
-        return [element[1] + ',' + element[0] + ',' + element[3]]
-
-class SelectCovidFields(beam.DoFn):
-    '''
-    Seleciona dentre todas as features extraídas, coduf, regiao, estado, casosAcumulado, obitosAcumulado
-    
-    Args:
-        element(list): lista => [...] todas as features
-    
-    Returns:
-        lista => [coduf, regiao, estado, casosAcumulado, obitosAcumulado]
-    
-    '''
-    def process(self, element):
-        return [element[3] + ',' + element[0] + ',' + element[1] + ',' + element[10] + ',' + element[12]]
-
-class SplitRow(beam.DoFn):
-    '''
-    Transforma dados csv em listas
-    
-    Args:
-        element(str): todas as features
-    
-    Returns:
-        lista => [...] todas as features
-    
-    '''
-    def process(self, element):
-        new_element = element.split(';')
-        yield new_element
 
 pipe = beam.Pipeline()
 

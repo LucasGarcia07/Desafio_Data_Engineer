@@ -1,27 +1,27 @@
-{"Regiao": "Norte", "Estado": "RO", "UF": "MARCOS JOSE ROCHA DOS SANTOS", "Governador": "Rond\u00f4nia", "TotalCasos": "65386", "TotalObitos": "1340"}
-{"Regiao": "Norte", "Estado": "AC", "UF": "GLADSON DE LIMA CAMELI", "Governador": "Acre", "TotalCasos": "27885", "TotalObitos": "657"}
-{"Regiao": "Norte", "Estado": "AM", "UF": "WILSON MIRANDA LIMA", "Governador": "Amazonas", "TotalCasos": "136708", "TotalObitos": "4031"}
-{"Regiao": "Norte", "Estado": "RR", "UF": "ANTONIO OLIVERIO GARCIA DE ALMEIDA", "Governador": "Roraima", "TotalCasos": "49968", "TotalObitos": "637"}
-{"Regiao": "Norte", "Estado": "PA", "UF": "HELDER ZAHLUTH BARBALHO", "Governador": "Par\u00e1", "TotalCasos": "228068", "TotalObitos": "6551"}
-{"Regiao": "Norte", "Estado": "AP", "UF": "ANTONIO WALDEZ G\u00d3ES DA SILVA", "Governador": "Amap\u00e1", "TotalCasos": "47935", "TotalObitos": "704"}
-{"Regiao": "Norte", "Estado": "TO", "UF": "MAURO CARLESSE", "Governador": "Tocantins", "TotalCasos": "66865", "TotalObitos": "922"}
-{"Regiao": "Nordeste", "Estado": "MA", "UF": "FL\u00c1VIO DINO DE CASTRO E COSTA", "Governador": "Maranh\u00e3o", "TotalCasos": "172176", "TotalObitos": "3735"}
-{"Regiao": "Nordeste", "Estado": "PI", "UF": "JOS\u00c9 WELLINGTON BARROSO DE ARA\u00daJO DIAS", "Governador": "Piau\u00ed", "TotalCasos": "94733", "TotalObitos": "2101"}
-{"Regiao": "Nordeste", "Estado": "CE", "UF": "CAMILO SOBREIRA DE SANTANA", "Governador": "Cear\u00e1", "TotalCasos": "239062", "TotalObitos": "8921"}
-{"Regiao": "Nordeste", "Estado": "RN", "UF": "MARIA DE FATIMA BEZERRA", "Governador": "Rio Grande do Norte", "TotalCasos": "68765", "TotalObitos": "2377"}
-{"Regiao": "Nordeste", "Estado": "PB", "UF": "JO\u00c3O AZEVEDO LINS FILHO", "Governador": "Para\u00edba", "TotalCasos": "119987", "TotalObitos": "2804"}
-{"Regiao": "Nordeste", "Estado": "PE", "UF": "PAULO HENRIQUE SARAIVA C\u00c2MARA", "Governador": "Pernambuco", "TotalCasos": "145096", "TotalObitos": "8190"}
-{"Regiao": "Nordeste", "Estado": "AL", "UF": "JOSE RENAN VASCONCELOS CALHEIROS FILHO", "Governador": "Alagoas", "TotalCasos": "86393", "TotalObitos": "2062"}
-{"Regiao": "Nordeste", "Estado": "SE", "UF": "BELIVALDO CHAGAS SILVA", "Governador": "Sergipe", "TotalCasos": "77172", "TotalObitos": "2025"}
-{"Regiao": "Nordeste", "Estado": "BA", "UF": "RUI COSTA DOS SANTOS", "Governador": "Bahia", "TotalCasos": "306629", "TotalObitos": "6648"}
-{"Regiao": "Sudeste", "Estado": "MG", "UF": "ROMEU ZEMA NETO", "Governador": "Minas Gerais", "TotalCasos": "290137", "TotalObitos": "7240"}
-{"Regiao": "Sudeste", "Estado": "ES", "UF": "JOSE RENATO CASAGRANDE", "Governador": "Esp\u00edrito Santo", "TotalCasos": "129796", "TotalObitos": "3524"}
-{"Regiao": "Sudeste", "Estado": "RJ", "UF": "WILSON JOS\u00c9 WITZEL", "Governador": "Rio de Janeiro", "TotalCasos": "262006", "TotalObitos": "18291"}
-{"Regiao": "Sudeste", "Estado": "SP", "UF": "JO\u00c3O AGRIPINO DA COSTA DORIA JUNIOR", "Governador": "S\u00e3o Paulo", "TotalCasos": "973142", "TotalObitos": "35125"}
-{"Regiao": "Sul", "Estado": "PR", "UF": "CARLOS ROBERTO MASSA JUNIOR", "Governador": "Paran\u00e1", "TotalCasos": "175982", "TotalObitos": "4378"}
-{"Regiao": "Sul", "Estado": "SC", "UF": "CARLOS MOIS\u00c9S DA SILVA", "Governador": "Santa Catarina", "TotalCasos": "213066", "TotalObitos": "2765"}
-{"Regiao": "Sul", "Estado": "RS", "UF": "EDUARDO FIGUEIREDO CAVALHEIRO LEITE", "Governador": "Rio Grande do Sul", "TotalCasos": "185778", "TotalObitos": "4648"}
-{"Regiao": "Centro-Oeste", "Estado": "MS", "UF": "REINALDO AZAMBUJA SILVA", "Governador": "Mato Grosso do Sul", "TotalCasos": "68325", "TotalObitos": "1278"}
-{"Regiao": "Centro-Oeste", "Estado": "MT", "UF": "MAURO MENDES FERREIRA", "Governador": "Mato Grosso", "TotalCasos": "121145", "TotalObitos": "3372"}
-{"Regiao": "Centro-Oeste", "Estado": "GO", "UF": "RONALDO RAMOS CAIADO", "Governador": "Goi\u00e1s", "TotalCasos": "202754", "TotalObitos": "4529"}
-{"Regiao": "Centro-Oeste", "Estado": "DF", "UF": "IBANEIS ROCHA BARROS JUNIOR", "Governador": "Distrito Federal", "TotalCasos": "190505", "TotalObitos": "3203"}
+{"Regiao": "Norte", "Estado": "Acre", "UF": "AC", "Governador": "GLADSON DE LIMA CAMELI", "TotalCasos": "27885", "TotalObitos": "657"}
+{"Regiao": "Nordeste", "Estado": "Alagoas", "UF": "AL", "Governador": "JOSE RENAN VASCONCELOS CALHEIROS FILHO", "TotalCasos": "86393", "TotalObitos": "2062"}
+{"Regiao": "Norte", "Estado": "Amap\u00e1", "UF": "AP", "Governador": "ANTONIO WALDEZ G\u00d3ES DA SILVA", "TotalCasos": "47935", "TotalObitos": "704"}
+{"Regiao": "Norte", "Estado": "Amazonas", "UF": "AM", "Governador": "WILSON MIRANDA LIMA", "TotalCasos": "136708", "TotalObitos": "4031"}
+{"Regiao": "Nordeste", "Estado": "Bahia", "UF": "BA", "Governador": "RUI COSTA DOS SANTOS", "TotalCasos": "306629", "TotalObitos": "6648"}
+{"Regiao": "Nordeste", "Estado": "Cear\u00e1", "UF": "CE", "Governador": "CAMILO SOBREIRA DE SANTANA", "TotalCasos": "239062", "TotalObitos": "8921"}
+{"Regiao": "Centro-Oeste", "Estado": "Distrito Federal", "UF": "DF", "Governador": "IBANEIS ROCHA BARROS JUNIOR", "TotalCasos": "190505", "TotalObitos": "3203"}
+{"Regiao": "Sudeste", "Estado": "Esp\u00edrito Santo", "UF": "ES", "Governador": "JOSE RENATO CASAGRANDE", "TotalCasos": "129796", "TotalObitos": "3524"}
+{"Regiao": "Centro-Oeste", "Estado": "Goi\u00e1s", "UF": "GO", "Governador": "RONALDO RAMOS CAIADO", "TotalCasos": "202754", "TotalObitos": "4529"}
+{"Regiao": "Nordeste", "Estado": "Maranh\u00e3o", "UF": "MA", "Governador": "FL\u00c1VIO DINO DE CASTRO E COSTA", "TotalCasos": "172176", "TotalObitos": "3735"}
+{"Regiao": "Centro-Oeste", "Estado": "Mato Grosso", "UF": "MT", "Governador": "MAURO MENDES FERREIRA", "TotalCasos": "121145", "TotalObitos": "3372"}
+{"Regiao": "Centro-Oeste", "Estado": "Mato Grosso do Sul", "UF": "MS", "Governador": "REINALDO AZAMBUJA SILVA", "TotalCasos": "68325", "TotalObitos": "1278"}
+{"Regiao": "Sudeste", "Estado": "Minas Gerais", "UF": "MG", "Governador": "ROMEU ZEMA NETO", "TotalCasos": "290137", "TotalObitos": "7240"}
+{"Regiao": "Norte", "Estado": "Par\u00e1", "UF": "PA", "Governador": "HELDER ZAHLUTH BARBALHO", "TotalCasos": "228068", "TotalObitos": "6551"}
+{"Regiao": "Nordeste", "Estado": "Para\u00edba", "UF": "PB", "Governador": "JO\u00c3O AZEVEDO LINS FILHO", "TotalCasos": "119987", "TotalObitos": "2804"}
+{"Regiao": "Sul", "Estado": "Paran\u00e1", "UF": "PR", "Governador": "CARLOS ROBERTO MASSA JUNIOR", "TotalCasos": "175982", "TotalObitos": "4378"}
+{"Regiao": "Nordeste", "Estado": "Pernambuco", "UF": "PE", "Governador": "PAULO HENRIQUE SARAIVA C\u00c2MARA", "TotalCasos": "145096", "TotalObitos": "8190"}
+{"Regiao": "Nordeste", "Estado": "Piau\u00ed", "UF": "PI", "Governador": "JOS\u00c9 WELLINGTON BARROSO DE ARA\u00daJO DIAS", "TotalCasos": "94733", "TotalObitos": "2101"}
+{"Regiao": "Sudeste", "Estado": "Rio de Janeiro", "UF": "RJ", "Governador": "WILSON JOS\u00c9 WITZEL", "TotalCasos": "262006", "TotalObitos": "18291"}
+{"Regiao": "Nordeste", "Estado": "Rio Grande do Norte", "UF": "RN", "Governador": "MARIA DE FATIMA BEZERRA", "TotalCasos": "68765", "TotalObitos": "2377"}
+{"Regiao": "Sul", "Estado": "Rio Grande do Sul", "UF": "RS", "Governador": "EDUARDO FIGUEIREDO CAVALHEIRO LEITE", "TotalCasos": "185778", "TotalObitos": "4648"}
+{"Regiao": "Norte", "Estado": "Rond\u00f4nia", "UF": "RO", "Governador": "MARCOS JOSE ROCHA DOS SANTOS", "TotalCasos": "65386", "TotalObitos": "1340"}
+{"Regiao": "Norte", "Estado": "Roraima", "UF": "RR", "Governador": "ANTONIO OLIVERIO GARCIA DE ALMEIDA", "TotalCasos": "49968", "TotalObitos": "637"}
+{"Regiao": "Sul", "Estado": "Santa Catarina", "UF": "SC", "Governador": "CARLOS MOIS\u00c9S DA SILVA", "TotalCasos": "213066", "TotalObitos": "2765"}
+{"Regiao": "Sudeste", "Estado": "S\u00e3o Paulo", "UF": "SP", "Governador": "JO\u00c3O AGRIPINO DA COSTA DORIA JUNIOR", "TotalCasos": "973142", "TotalObitos": "35125"}
+{"Regiao": "Nordeste", "Estado": "Sergipe", "UF": "SE", "Governador": "BELIVALDO CHAGAS SILVA", "TotalCasos": "77172", "TotalObitos": "2025"}
+{"Regiao": "Norte", "Estado": "Tocantins", "UF": "TO", "Governador": "MAURO CARLESSE", "TotalCasos": "66865", "TotalObitos": "922"}

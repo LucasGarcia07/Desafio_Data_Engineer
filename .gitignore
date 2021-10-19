@@ -1,2 +1,4 @@
-*.json
-*.csv
+resultado-00000-of-00001.json
+resultado-00000-of-00001.csv
+
+__pycache__/
