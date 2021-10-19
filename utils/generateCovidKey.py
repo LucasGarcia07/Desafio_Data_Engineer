@@ -8,7 +8,7 @@ class GenerateCovidKey(beam.DoFn):
         element (list): lista =>  [coduf, regiao, estado, casosAcumulado, obitosAcumulado]
     
     Returns: 
-        tupple => (coduf, regiao, estado, casosAcumulado, obitosAcumulado )
+        tupple => (coduf, [regiao, estado, casosAcumulado, obitosAcumulado])
     
     '''
     def process(self, element):

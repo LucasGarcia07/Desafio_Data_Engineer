@@ -8,7 +8,7 @@ class GenerateEstadosKey(beam.DoFn):
         element (list): lista =>  [coduf, governador, uf]
     
     Returns: 
-        tupple => (coduf, governador, uf)
+        tupple => (coduf, [governador, uf])
     
     '''
     
