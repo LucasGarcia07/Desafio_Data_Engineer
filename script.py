@@ -1,4 +1,5 @@
 import apache_beam as beam
+
 import json
 
 from utils.toStr import ToStr
@@ -45,10 +46,10 @@ pipe.run()
 headers = ['Regiao', 'Estado', 'UF', 'Governador', 'TotalCasos', 'TotalObitos']
 
 merged_json = (pipe
-    |beam.io.ReadFromText("data/resultado-00000-of-00001.csv", skip_header_lines=True)
-    |beam.Map(lambda line: dict(zip(headers, line.split(',') ) ) )
-    |beam.Map(json.dumps)
-    |beam.io.WriteToText("data/resultado", file_name_suffix='.json')
+    |"Extrair csv do resultado" >> beam.io.ReadFromText("data/resultado-00000-of-00001.csv", skip_header_lines=True)
+    |"Transformar csv em dict" >> beam.Map(lambda line: dict(zip(headers, line.split(',') ) ) )
+    |"Transformar dict em json válido" >> beam.Map(json.dumps)
+    |"Envia os dados para result_file.json" >> beam.io.WriteToText("data/resultado", file_name_suffix='.json')
 )
 
 pipe.run()
