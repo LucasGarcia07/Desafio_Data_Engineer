@@ -32,3 +32,6 @@ para executar o pipeline basta usar o seguinte comando
 ```
 python script.py
 ```
+
+# Documentação
+[docs](docs/_build/html/index.html)
