@@ -1,0 +1,7 @@
+generateEstadosKey module
+=========================
+
+.. automodule:: generateEstadosKey
+   :members:
+   :undoc-members:
+   :show-inheritance:

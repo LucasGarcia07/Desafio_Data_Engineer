@@ -1,0 +1,7 @@
+toStr module
+============
+
+.. automodule:: toStr
+   :members:
+   :undoc-members:
+   :show-inheritance:

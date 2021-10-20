@@ -1,0 +1,7 @@
+selectCovidFields module
+========================
+
+.. automodule:: selectCovidFields
+   :members:
+   :undoc-members:
+   :show-inheritance:

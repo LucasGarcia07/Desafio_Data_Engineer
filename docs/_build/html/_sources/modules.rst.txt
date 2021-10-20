@@ -1,0 +1,12 @@
+utils
+=====
+
+.. toctree::
+   :maxdepth: 4
+
+   generateCovidKey
+   generateEstadosKey
+   selectCovidFields
+   selectEstadosFields
+   splitRow
+   toStr

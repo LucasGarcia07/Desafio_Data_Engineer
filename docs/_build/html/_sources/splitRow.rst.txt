@@ -1,0 +1,7 @@
+splitRow module
+===============
+
+.. automodule:: splitRow
+   :members:
+   :undoc-members:
+   :show-inheritance:

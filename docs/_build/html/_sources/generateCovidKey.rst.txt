@@ -1,0 +1,7 @@
+generateCovidKey module
+=======================
+
+.. automodule:: generateCovidKey
+   :members:
+   :undoc-members:
+   :show-inheritance:
